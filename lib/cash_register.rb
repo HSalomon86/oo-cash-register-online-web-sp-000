@@ -19,7 +19,7 @@ class CashRegister
     #   end
     # else
     #   @items << title
-    end
+    # end
     @last_transaction = price * quantity
   end
 
