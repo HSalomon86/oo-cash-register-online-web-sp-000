@@ -14,7 +14,7 @@ class CashRegister
     # if quantity > 1
     #   counter = 0
     #   while counter < quantity
-        @items << title * quantity
+        @items.fill(title, @items.size, quantity) 
     #     counter += 1
     #   end
     # else
